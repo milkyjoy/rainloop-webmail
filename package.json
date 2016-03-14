@@ -1,0 +1,88 @@
+{
+  "name": "RainLoop",
+  "title": "RainLoop Webmail",
+  "version": "1.9.4",
+  "release": "402",
+  "description": "Simple, modern & fast web-based email client",
+  "homepage": "http://rainloop.net",
+  "main": "gulpfile.js",
+  "author": {
+    "name": "RainLoop Team",
+    "email": "support@rainloop.net",
+    "web": "http://rainloop.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/RainLoop/rainloop-webmail.git"
+  },
+  "licenses": [
+    {
+      "type": "AGPL 3.0",
+      "ulr": "http://www.gnu.org/licenses/agpl-3.0.html"
+    },
+    {
+      "type": "RainLoop Software License",
+      "ulr": "http://www.rainloop.net/licensing/"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/RainLoop/rainloop-webmail/issues"
+  },
+  "keywords": [
+    "webmail",
+    "php",
+    "simple",
+    "modern",
+    "mail",
+    "web-based",
+    "email",
+    "client",
+    "plugins"
+  ],
+  "readmeFilename": "README.md",
+  "ownCloudPackageVersion": "4.12",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.1.4",
+    "babel-eslint": "^4.1.5",
+    "babel-loader": "^6.1.0",
+    "babel-plugin-transform-runtime": "^6.1.18",
+    "babel-preset-es2015-loose": "^7.0.0",
+    "babel-preset-stage-0": "^6.1.18",
+    "babel-runtime": "^6.1.18",
+    "eslint": "^1.9.0",
+    "gulp": "~3.9.0",
+    "gulp-autoprefixer": "*",
+    "gulp-beautify": "*",
+    "gulp-closure-compiler": "*",
+    "gulp-concat-util": "*",
+    "gulp-csscomb": "*",
+    "gulp-csslint": "*",
+    "gulp-eol": "*",
+    "gulp-eslint": "^1.1.0",
+    "gulp-header": "*",
+    "gulp-if": "~1.2.5",
+    "gulp-jshint": "*",
+    "gulp-less": "1.3.6",
+    "gulp-livereload": "~3.8.0",
+    "gulp-minify-css": "*",
+    "gulp-notify": "~2.2.0",
+    "gulp-plumber": "*",
+    "gulp-rename": "*",
+    "gulp-replace": "*",
+    "gulp-rimraf": "*",
+    "gulp-stripbom": "*",
+    "gulp-through": "~0.3.0",
+    "gulp-uglify": "*",
+    "gulp-util": "*",
+    "gulp-zip": "*",
+    "jshint-summary": "*",
+    "lodash": "~3.9.3",
+    "node-fs": "*",
+    "node-notifier": "~4.2.3",
+    "rimraf": "*",
+    "webpack": "*"
+  }
+}

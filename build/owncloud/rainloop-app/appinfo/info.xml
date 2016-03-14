@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<info>
+	<id>rainloop</id>
+	<name>RainLoop</name>
+	<description>Simple, modern and fast web-based email client.</description>
+	<version>0.0</version>
+	<licence></licence>
+	<author>RainLoop Team</author>
+	<require>6.0</require>
+	<dependencies>
+        <php min-version="5.3"/>
+    </dependencies>
+</info>
